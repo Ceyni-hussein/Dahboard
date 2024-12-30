@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* section 1 */
+.container{
+    display: flex;
+    gap: 30px;
+}
+.header{
+    background-color: rgb(97, 97, 251);
+    height: 100vh;
+    width: 240px;
+    color: white;
+}
+#cancel{
+    padding-left: 86%;
+    padding-top: 5%;
+    font-size: 2em;
+    
+}
+   
+ul{
+    text-align: center;
+    padding: 50px 20px;
+    list-style: none;
+    font-size: 2em;
+}
+/* ul li:hover{
+    background-color: blueviolet
+} */
+.dashboard{
+    display: flex;
+    gap: 10px;
+    padding-top: 10%;
+}
+
+.dashboard i{
+    padding-top: 3%;
+}
+.dashboard:hover{
+    color: rgb(67, 43, 226)
+}
+.student{
+    display: flex;
+    gap: 10px;
+    padding-top: 10%;
+}
+.student i{
+    padding-top: 3%;
+}
+.student:hover{
+    color: rgb(67, 43, 226)
+}
+.teacher{
+    display: flex;
+    gap: 10px;
+    padding-top: 10%;
+}
+.teacher i{
+    padding-top: 3%;
+}
+.teacher:hover{
+    color: rgb(67, 43, 226)
+}
+.document{
+    display: flex;
+    gap: 10px;
+    padding-top: 10%;
+}
+.document i{
+    padding-top: 3%;
+}
+.document:hover{
+    color: rgb(67, 43, 226)
+}
+.logout{
+    display: flex;
+    gap: 10px;
+    padding-top: 10%;
+}
+.logout i{
+    padding-top: 3%;
+}
+.logout:hover{
+    color: rgb(67, 43, 226)
+}
+/* section 2 */
+.boxes{
+    padding-top: 4%;
+    display: flex;
+    gap: 40px;
+}
+.box1{
+    
+   width: 250px;
+   height: 180px;
+   background-color: rgb(221, 128, 176);
+   padding-top: 2%;
+   border-bottom: 8px solid orange;
+}
+.box1 h2{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15%;
+}
+.box1 p{
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 2%;
+}
+.box2{
+    
+    width: 250px;
+    height: 180px;
+    background-color: aquamarine;
+    padding-top: 2%;
+    border-bottom: 8px solid orange;
+ }
+ .box2 h2{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15%;
+}
+.box2 p{
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 2%;
+    
+}
+ .box3{
+    
+    width: 250px;
+    height: 180px;
+    background-color: rgb(166, 147, 147);
+    padding-top: 2%;
+    border-bottom: 8px solid orange;
+    
+ }
+ .box3 h2{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15%;
+}
+.box3 p{
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 2%;
+   
+}
+#icon-box{
+    padding-left: 44%;
+    padding-top: 10%;
+    font-size: 1.8em;
+    color: rgb(19, 154, 238);
+}
